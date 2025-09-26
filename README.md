@@ -1,0 +1,3 @@
+🔩 NUT Autoencoder – Defect Detection with Deep Learning
+
+This project uses a Convolutional Autoencoder to detect defects in the NUT dataset through unsupervised learning. Images are preprocessed with Pandas, NumPy, OpenCV, and Pillow, then scaled with scikit-learn before training in TensorFlow/Keras. The model applies convolutional, pooling, and upsampling layers with BatchNormalization and LeakyReLU, optimized using Adam and callbacks like EarlyStopping. Performance is evaluated using SSIM and reconstruction error, with results visualized through Matplotlib and Seaborn. This approach demonstrates how autoencoders can support industrial quality control and anomaly detection in image-based datasets.
